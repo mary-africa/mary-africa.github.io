@@ -2,7 +2,7 @@ module.exports = {
   title: 'Nena API',
   tagline: 'Get to build swahili first tools with Nena',
   url: 'https://inspiredideas.github.io',
-  baseUrl: '/nena-docs',
+  baseUrl: '/',
   onBrokenLinks: 'warn', // later should change back to 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
