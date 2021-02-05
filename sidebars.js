@@ -1,6 +1,10 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['getting-started', 'api-reference'],
-    Features: ['mdx'],
-  },
+    Introduction: ['getting-started', 'api-reference'],
+    // Usage: [
+    //   {"Keys": ['getting-started', 'api-reference']},
+    //   {"AI": ['getting-started', 'api-reference']}
+    // ],
+    "API References": ['mdx'],
+  }
 };
