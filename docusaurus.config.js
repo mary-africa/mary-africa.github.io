@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Nena API',
   tagline: 'Get to build swahili first tools with Nena',
-  url: 'https://nena-docs.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+  url: 'https://inspiredideas.github.io',
+  baseUrl: '/nena-docs',
+  onBrokenLinks: 'warn', // later should change back to 'throw'
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'inspiredideas', // Usually your GitHub org/user name.
-  projectName: 'nena-docs', // Usually your repo name.
+  projectName: 'inspiredideas.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       logo: {
@@ -21,7 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog/', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'left'},
       ],
     },
     footer: {
